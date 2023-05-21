@@ -1,0 +1,11 @@
+# directory where model results are saved
+model_dir: tolkien_opennmt_results_dir
+
+# auto configs the model based on which one is being used
+auto_config: true
+
+data:
+  train_features_file: /data_proc/en-tolk.en
+  train_labels_file: /data_proc/en-tolk.tkn
+  eval_features_file: /data/ende/valid.en 
+  eval_labels_file: /data/ende/valid.de
